@@ -6,21 +6,21 @@
  *     do not nest.
  *
  * Compile:
- *   clang -std=c99 -Wall -Wextra -pedantic -O1 kr-1-23.c
- *   gcc   -std=c99 -Wall -Wextra -pedantic -O1 kr-1-23.c
+ *   clang -std=c99 -Wall -Wextra -pedantic -O1 1-23.c
+ *   gcc   -std=c99 -Wall -Wextra -pedantic -O1 1-23.c
  * Incompatible with C90 or earlier due to:
  *   // comments
  *   variable declaration in for loop
  *   declaration after statement
  * Run:
- *   file name argument: ./a.out comments.c
- *   input redirection : ./a.out < comments.c
- *   piped input       : cat comments.c | ./a.out
+ *   file name argument: ./a.out 1-23test.c
+ *   input redirection : ./a.out < 1-23test.c
+ *   piped input       : cat 1-23test.c | ./a.out
  *   manual input      : ./a.out (^D to end)
  * Debug compile:
- *   clang -DDEBUG kr-1-23.c
+ *   clang -DDEBUG 1-23.c
  * Debug run:
- *   ./a.out comments.c 1>/dev/null
+ *   ./a.out 1-23test.c 1>/dev/null
  */
 
 // fopen, fclose, fgets, fputc
