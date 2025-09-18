@@ -1,9 +1,9 @@
 /**
  * Kernighan & Ritchie - The C Programming Language, second edition
  * Exercise 1-23, page 34:
- *     Write a program to remove all comments from a C program. Don't forget
- *     to handle quoted strings and character constants properly. C comments
- *     do not nest.
+ *   Write a program to remove all comments from a C program. Don't forget
+ *   to handle quoted strings and character constants properly. C comments
+ *   do not nest.
  *
  * Compile:
  *   clang -std=c99 -Wall -Wextra -pedantic -O1 1-23.c
